@@ -9,9 +9,9 @@ attack_in_progress = False
 current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
-TELEGRAM_BOT_TOKEN = '7564327801:AAHDcN4pkglJYlDUKf8Z41JhC5UPQxYnkoM'
-ADMIN_USER_ID = 1240179115
-MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
+TELEGRAM_BOT_TOKEN = '7455722221:AAFTh2LMKlh9TENFh0TIn-_Bf5WqWTlvk30'
+ADMIN_USER_ID = 1216702307
+MONGO_URI = "mongodb+srv://donmourya248:Santosh700@redhat.drq43.mongodb.net/RedHat?retryWrites=true&w=majority&appName=RedHat"
 DB_NAME = "neerajr"
 COLLECTION_NAME = "users"
 ATTACK_TIME_LIMIT = 240  # Maximum attack duration in seconds
