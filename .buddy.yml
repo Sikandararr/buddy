@@ -8,6 +8,7 @@ pipelines:
         commands:
           - python3 -m pip install --upgrade pip
           - pip install -r requirements.txt
+          - ls -l  # Check if the script exists
           - chmod +x sklate.py
-          - ls -l  # Check if the file exists
           - python3 sklate.py
+    
